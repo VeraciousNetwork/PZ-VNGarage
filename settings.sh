@@ -37,7 +37,7 @@ export MOD_VISIBILITY="public"
 #
 # Should be a string that only contains letters, numbers, periods, underscores, tilde, or dashes.
 # Used to set `modversion=` within `mod.info` files.
-export MOD_VERSION="2025.06.NEXT"
+export MOD_VERSION="2025.07.01"
 
 ##
 # Newline-separated list of source spritemaps that should get deployed for each Pack.
