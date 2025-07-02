@@ -6,8 +6,14 @@ WORKBENCH!
 	[*] Add Workbench with a pegboard for storing small tools
 [/list]
 
+## v1.2.01 - 2025.07.02
 
-## 2025.07.01
+Fix regression bug introduced when backporting for B42.10
+
+Thanks Si-Cafe for bringing this to my attention!
+
+
+## v1.2.00 - 2025.07.01
 
 Optimized assets and support for Tetris Inventory
 
@@ -19,7 +25,7 @@ Optimized assets and support for Tetris Inventory
 [/list]
 
 
-## 2025.06.09
+## v1.1.00 - 2025.06.09
 
 Project Zomboid B42 support!
 
@@ -36,4 +42,80 @@ Project Zomboid B42 support!
 	[*] Add KI5's 88 Toyota Hilux - Slider6996
 	[*] Add KI5's 92 Jeep YJ - Slider6996
 	[*] Add KI5's 04 VW Touran - Slider6996
+[/list]
+
+
+## v1.0.07 - 2024.11.17
+
+added '91 Ford LTD Crown Victoria / Country Squire by KI5 MR #18 by Slider[github.com]
+
+
+## v1.0.06 - 2024.10.13
+
+Add KI5 tire for 1969 Mini #10[github.com]
+Fix regression bug of 16-bit image #11[github.com]
+Add KI5 tire 93 Ford CF8000 Tire Type Heavy-Duty #10[github.com]
+Add KI5 tire M35A2 RunFlat 4 Tire Axle #10[github.com]
+Add KI5 tire M923 RunFlat 2 Tire Axle #10[github.com]
+Add KI5 tire RunFlat 4 Tire Axle #10[github.com]
+Add KI5 tire 75 Pontiac Grand Prix H17 Tire Type Sport #10[github.com]
+Add KI5 tire 87 Chevrolet Suburban Tire Type Heavy-Duty #10[github.com]
+Add KI5 tire Pontiac Rally II R15 Tire Type Standard #10[github.com]
+Add KI5 tire Pontiac Rally II R17 Tire Type Sport #10[github.com]
+Add KI5 tire 77 Pontiac Firebird - slider6996 MR #17[github.com]
+Add support for I18N #12[github.com]
+
+
+## v1.0.05 - 2024.09.29
+
+Add more KI5 tires thanks to slider6996 (Merge Request #5[github.com])
+Update cost to include 10 metal pipes
+Update cost to include 1 welding rod
+Cleanup asset to have better tire coloring
+Add blue painted tire rack (Issue #3[github.com])
+Add green painted tire rack (Issue #3[github.com])
+Add orange painted tire rack (Issue #3[github.com])
+Add pink painted tire rack (Issue #3[github.com])
+Add purple painted tire rack (Issue #3[github.com])
+Add red painted tire rack (Issue #3[github.com])
+Add yellow painted tire rack (Issue #3[github.com])
+Fix non-table error in some servers (Issue #4[github.com])
+
+
+## v1.0.04 - 2024.01.19
+
+Switch to 3D model versions for sprites
+Add updated M151A2 RunFlat Tire from KI5
+
+
+## v1.0.03 - 2024.01.12
+
+Fix spelling for 59 Meteor Tire items
+Set category to Welding
+
+
+## v1.0.02 - 2024.01.09
+
+[list]
+	[*] Cleanup source code A LOT
+	[*] Add documentation throughout
+	[*] Switch from ISInventoryTransferAction.transferItem to ItemPickerJava.updateOverlaySprite for better single player reliability
+	[*] Implement K15 vehicle tires (thanks NoFaceTV)
+	[*] Fix multiplayer support for sprites
+	[*] Fix animation (was using the incorrect one)
+[/list]
+
+
+## v1.0.01 - 2024.01.07
+
+HOTFIX - Fix issue with transferring items in a vehicle.
+
+Since there is no event for monitoring item transfers to containers, an override to ISInventoryTransferAction.transferItem
+is required. We just needed to implement an additional check if the source or destination container does not have a Sprite.
+
+
+## v1.0.00 - 2024.01.06
+
+[list]
+  [*] Set animation to blowtorch.
 [/list]

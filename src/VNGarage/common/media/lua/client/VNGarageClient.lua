@@ -30,8 +30,6 @@ if not isClient() then
 			VNGarage.TireRack.UpdateTireRackSprite(isoObject)
 		elseif VNGarage.BatteryShelf.ObjectIsShelf(isoObject) then
 			VNGarage.BatteryShelf.UpdateSprite(isoObject)
-		elseif VNGarage.Workbench.ObjectIsWorkbench(isoObject) then
-			VNGarage.Workbench.UpdateSprite(isoObject)
 		else
 			overload_fn(isoObject)
 		end
